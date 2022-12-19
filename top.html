@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+<body>
+   
+     <form id="form"  mathod=" post">
+         <h1>Login</h1>
+          <input type="text" placeholder="username" id="user">  
+          <input type="password" placeholder=" password" id="pass">
+          <input type="submit" name=" " id="submit" value="Login">
+    </form>
+    
+</body>
+<!-- <script>
+    for (x=0; x<5; x++){
+    let hea= document.createElement('div');
+    let d=document.createElement("div");
+
+        let he= document.createElement('h1');
+    let h= document.createElement('h3');
+    he.innerText="chandan singh";
+          h.innerText="Is a good boy";
+     document.querySelector(' body').append(hea,);
+      
+        hea.style.border='4px solid teal';
+        hea.style.textAlign='center';
+        hea.style.boxShadow='red 2px 2px,blue 3px 2px';
+         d.style.border="2px solid blue"
+
+        let butt=document.createElement("button");
+        butt.innerText="submit";
+      butt.addEventListener("click",()=>{
+          he.innerText=" chandan singh is a good boy"
+        butt.innerText="Redo"
+         h.innerText=""
+         swal("Here's the title!", "...and here's the text!");
+         
+      })
+      
+         document.querySelector("div").append(h,he, butt);
+          
+
+     }
+ 
+
+
+    
+           
+</script> -->
+<script>
+     let   username='chandan singh';
+      let password='1234';
+      let enuser=document.getElementById("user").valve;
+      let enpass=document.getElementById("pass").valve;
+         let butt=  document.getElementById('submit');
+         butt.addEventListener("click",logi);
+          function logi(){
+            if (  username==enuser && password==enpass){
+         alert("login");
+       } else{
+         alert("not logi");
+       }
+          }
+       
+
+</script>
+</html>

@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  #header {
+    background-color: rgba(226, 15, 15, 0.979);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  #header img {
+    width: 150px;
+    padding: 16px 12px;
+  }
+ 
+  #header div {
+    margin: 20px 16px;
+  }
+ 
+  #header div i:hover {
+    cursor: pointer;
+  }
+ 
+  #header div select:hover {
+    cursor: pointer;
+  }
+ 
+  #header div select {
+    background-color: rgba(226, 15, 15, 0.979);
+    border-style: none;
+    margin-left: 12px;
+  }
+ 
+  #neck {
+    background-image: url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg");
+    height: 66vh;
+    text-align: center;
+    font-size: 40px;
+    background-attachment: fixed;
+    margin: 0px;
+  }
+ 
+  #icon {
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+    /* margin-bottom:60px ; */
+    width: 90vw;
+    border: none;
+    height: 6vh;
+    text-align: center;
+    border-radius: 10px;
+    outline-style: none;
+  }
+ 
+  #icon:hover {
+    cursor: pointer;
+    outline-style: dotted;
+  }
+ 
+  .check {
+    width: 20vw;
+    border-radius: 10px;
+    height: 4vh;
+    border: none;
+    outline-style: none;
+  }
+ 
+  .check:hover {
+    outline-style: dotted;
+    cursor: pointer;
+  }
+ 
+  #neck select {
+    width: 90vw;
+    height: 4vh;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    outline-style: none;
+  }
+ 
+  #neck select:hover {
+    outline-style: dotted;
+    cursor: pointer;
+ 
+  }
+ 
+   #search {
+    width: 90vw;
+    height: 4vh;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+ 
+  #search:hover {
+    cursor: pointer;
+    background-color: blue;
+    outline-style: dotted;
+ 
+ 
+  }
+ 
+  h7 {
+    color: rgb(244, 237, 237);
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+ 
+  #body {
+    margin-top: 6.8vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em blue, 0 0 0.2em blue,
+ 
+  }
+ 
+  #body h3 {
+    display: flex;
+    align-content: flex-start
+  }
+ 
+  #body p {
+    font-size: 2.4vw;
+    margin-bottom: 30vw;
+    color: rgb(252, 254, 255);
+ 
+ 
+ 
+  }
+ 
+  a {
+    text-decoration: none;
+  }
+ 
+  #img1 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img1:hover {
+    border: 4px dotted;
+  }
+ 
+  #img2 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img2:hover {
+    border: 4px dotted;
+  }
+ 
+  #img3 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img3:hover {
+    border: 4px dotted;
+  }
+ 
+  #img4 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img4:hover {
+    border: 4px dotted;
+  }
+ 
+  #img5 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img5:hover {
+    border: 4px dotted;
+  }
+ 
+  #img6 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img6:hover {
+    border: 4px dotted;
+  }
+ 
+  #img7 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img7:hover {
+    border: 4px dotted;
+  }
+ 
+  #img8 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img8:hover {
+    border: 4px dotted;
+  }
+ 
+  #img9 {
+    background-image: url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    margin-top: 2vw;
+    height: 140px;
+    width: 20vw;
+    text-align: center;
+    padding: 10px;
+    /* box-shadow: rgba(46, 104, 240, 0.4) 5px 5px, rgba(29, 92, 180, 0.3) 10px 10px, rgba(25, 50, 102, 0.2) 15px 15px, rgba(60, 10, 42, 0.1) 20px 20px, rgba(13, 33, 93, 0.05) 25px 25px;  */
+    background-size: cover;
+    border-radius: 12px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://cdn1.tripoto.com/media/filter/tst/img/2052077/Image/1654872215_1650865492_nature_photographer_29ezcwtmtnm_unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+ 
+ 
+ 
+  }
+ 
+  #img9:hover {
+    border: 4px dotted;
+  }
+ 
+  .imgAll {
+    display: flex;
+    justify-content: space-around;
+    height: 142px;
+    width: 100%;
+    padding: 44px 0px;
+  }
+ 
+  .imgAll .img P {
+    margin-top: 4vw;
+  }
+ 
+  h3 {
+    color: gray;
+  }
+ 
+  #img1 {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png");
+  }
+ 
+  /* //vacation Idas------- */
+  .slider-container {
+    width: 80vw;
+    height: 300px;
+    border: 2px solid gray;
+    margin: auto;
+    position: relative;
+    display:flex;
+    overflow: auto;
+     /* flex-wrap: nowrap; */
+  }
+ 
+ .slider-item img {
+   margin:auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+      #main-con{
+       display: flex;
+      }
+      #butt1{
+       margin:auto;
+       width: 100px;
+      border: 2px dotted black;
+      border-radius: 40%;
+      padding: 10px 10px;
+      cursor: pointer;
+      background-color: #d80909;
+      }
+      #butt2{
+       margin:auto;
+       width: 100px;
+      border: 2px dotted black;
+      border-radius: 40%;
+      padding: 10px 10px;
+      cursor: pointer;
+      background-color: #d80909;
+ 
+      }
+      #bu{
+       width: 100px;
+       height: 100px;
+       padding: 100px 100px;
+      }

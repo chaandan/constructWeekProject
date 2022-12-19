@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+
+    <div id="header">
+        <img src="https://d2v8elt324ukrb.cloudfront.net/static/riotuikit/images/logo.c72056a22f91.png" alt="logo">
+        <div>
+           <a href="top.html">
+            <i class="fa fa-user"></i></a>
+            <select>
+                <optgroup label="currency">
+                    <option value="INR">INR</option>
+                    <option value="USD">USD</option>
+                    <option value="AUD">AUD</option>
+                    <option value="CAD">CAD</option>
+                    <option value="AED">AED</option>
+                    <option value="NOK">NOK</option>
+                    <option value="AED">AED</option>
+                </optgroup>
+            </select>
+        </div>
+    </div>
+    <div id="neck">
+
+        <h7> Book Hotels</br> Vacation Rentals </br>
+            Top Holiday Homes - Villas, Apartments & Homestays </h7>
+
+        <!-- /////---------------------------->
+        <div>
+            <input type="search" placeholder="Location" id="icon">
+            <h7>check in:-</h7><input type="date" class="check" value="check in" />
+            <h7>check out:-</h7><input type="date" class="check" />
+
+            <select>
+                <option value="guest">no. of guest</option>
+                <option value="1 guest">1 guest</option>
+                <option value="2 guest">2 guest</option>
+                <option value="3 guest">3 guest</option>
+                <option value="4 guest">4 guest</option>
+                <option value="5 guest">5 guest</option>
+                <option value="6 guest">6 guest</option>
+                <option value="7 guest">7 guest</option>
+                <option value="8 guest">8 guest</option>
+                <option value="9 guest">9 guest</option>
+                <option value="10 guest">10 guest</option>
+                <option value="11 guest">11 guest</option>
+                <option value="12 guest">12 guest</option>
+                <option value="13 guest">13 guest</option>
+                <option value="14 guest">15 guest</option>
+            </select>
+            <button id="search">Search</button>
+        </div>
+
+        <!-- /////////////////////////////// -->
+        <div id="body">
+            <h3>Top Destination</h3>
+            <div class="imgAll">
+                <a href="top.html">
+                    <div id="img1" class="img">
+                        <p>Kerala</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+                <a href="top.html">
+                    <div id="img2" class="img">
+                        <p>Goa</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+                <a href="top.html">
+                    <div id="img3" class="img">
+                        <p> Mumbai</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+            </div>
+            <div class="imgAll">
+                <a href="top.html">
+                    <div id="img4" class="img">
+                        <p>Shimla</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+                <a href="top.html">
+                    <div id="img5" class='img'>
+                        <p>Manali</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+                <a href="top.html">
+                    <div id="img6" class="img">
+                        <p>Leh</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+            </div>
+            <div class="imgAll">
+                <a href="top.html">
+                    <div id="img7" class="img">
+                        <p> Kasmir</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+                <a href="top.html">
+                    <div id="img8" class="img">
+                        <p>Dubai</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+                <a href="top.html">
+                    <div id="img9" class="img">
+                        <p>NewYork</br> Vaccation Rentals</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- //Vacation ideas----------------------- -->
+         <h3>Vacation Ideas</h3>
+        <div id="main-con">
+        <button id="butt1" onclick="pre()">< </button>
+             
+            <div class="slider-container">
+                <div class="slider-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png">
+                </div>
+                <div class="slider-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png">
+                </div>
+                <div class="slider-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png">
+                </div>
+                <div class="slider-item">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png">
+                </div>
+
+
+
+            </div>
+   <button id='butt2' onclick="next()">></button>
+
+        </div>
+</body>
+
+
+
+
+
+
+</html>
+<script>
+    let slider=document.
+querySelectorAll (".slider-item");
+// console.log('mshd',slider);
+let counter=0;
+slider.forEach((slide,index) => {
+         slide.style.left=`${index*100}%`;
+});
+   function sliderImage(){
+         slider.forEach((slide)=>{
+             slide.style.transform=`translateX(-${counter*100}%)` 
+         })
+    }
+    function pre(){
+             counter++;
+             sliderImage();
+          };
+          
+          function next(){
+           counter--;
+           sliderImage();
+         }
+              
+           
+            
+    
+            
+ 
+
+</script>
